@@ -1,0 +1,1214 @@
+{
+  "id": "05f973f2-26c0-4820-90cc-9e354ce5d23c",
+  "version": "2.0",
+  "name": "KSRTC_BOOTCAMP",
+  "url": "https://ksrtc.in",
+  "tests": [{
+    "id": "d5ac3202-26a8-423f-8c2a-eb3ae4153ba9",
+    "name": "my_testcase2",
+    "commands": [{
+      "id": "da88c75c-2e2b-4ae0-87a1-233e7450325e",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4610ab0-cd0a-4d90-857a-77c9fa7b486a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1052x668",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e82dbe97-9e20-4def-b4f6-8ae52b15c26e",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "057bd8fc-2ac5-4500-b65b-9a8e330dbfad",
+      "comment": "",
+      "command": "type",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "BANGLORE"
+    }, {
+      "id": "66a60c91-d50f-4352-9aa1-6c7aa7fefe41",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please select Leaving From.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4b6bbcb-93fb-4495-90c3-a99059395b0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc778563-c27d-4e0b-b758-a70bfa76c1ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-20",
+      "targets": [
+        ["id=ui-id-20", "id"],
+        ["linkText=BANGALORE", "linkText"],
+        ["css=#ui-id-20", "css:finder"],
+        ["xpath=//a[contains(text(),'BANGALORE')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-20']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-1']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//body/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BANGALORE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "381a662e-6e4b-4f15-81f2-e55e5603aea9",
+      "comment": "",
+      "command": "type",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "BANGALORE"
+    }, {
+      "id": "ea505d58-b8e6-4f31-8822-347d4bf759ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf336b09-e71b-47d3-ad04-3c600d40b09c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-30",
+      "targets": [
+        ["id=ui-id-30", "id"],
+        ["linkText=ADONI", "linkText"],
+        ["css=#ui-id-30", "css:finder"],
+        ["xpath=//a[contains(text(),'ADONI')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-30']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-2']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//body/ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ADONI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c05f66d-1fae-49f5-b039-c1096750b5c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtJourneyDate",
+      "targets": [
+        ["id=txtJourneyDate", "id"],
+        ["name=txtJourneyDate", "name"],
+        ["css=#txtJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d531dfec-d38d-493f-82c8-f63fbe434a2e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=30",
+      "targets": [
+        ["linkText=30", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'30')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//td[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'30')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7378a2c3-dd82-4851-a0dc-30bed0a90c50",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtReturnJourneyDate",
+      "targets": [
+        ["id=txtReturnJourneyDate", "id"],
+        ["name=txtReturnJourneyDate", "name"],
+        ["css=#txtReturnJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtReturnJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fb59e72-ac1d-4114-be94-9e3f6b1f5b24",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtReturnJourneyDate",
+      "targets": [
+        ["id=txtReturnJourneyDate", "id"],
+        ["name=txtReturnJourneyDate", "name"],
+        ["css=#txtReturnJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtReturnJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99046677-c9e1-4696-b3c5-73b24e550f7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control-label",
+      "targets": [
+        ["css=.custom-control-label", "css:finder"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Single Lady')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6572f60c-3085-461b-80df-5f5832b225e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "88a4cf8a-6ed6-46bf-88c5-f990e94ffb5b",
+    "name": "my_testcase1",
+    "commands": [{
+      "id": "1ea8c461-5351-462b-9b59-21f36f5ad076",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ca14755-c2ea-46cd-9de2-1acff6208c46",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1052x668",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fa8ef47-a471-4f4e-9845-de4c8761f980",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cancel Tickets",
+      "targets": [
+        ["linkText=Cancel Tickets", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancel Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/oprs-web/guest/ticket/cancel.do')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cancel Tickets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d79320ba-13ae-4888-b19d-e08822999db5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Cancel Tickets",
+      "targets": [
+        ["linkText=Cancel Tickets", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancel Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/oprs-web/guest/ticket/cancel.do')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cancel Tickets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f8aaeb4-70a0-468e-956b-3a0c5868c5bb",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88b0dc3a-5eb7-4f6f-be37-07384a26eae3",
+      "comment": "",
+      "command": "type",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ban"
+    }, {
+      "id": "6ae049d6-0926-48fd-b707-118a4f5d1c22",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please select Leaving From.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "767919a5-7547-4533-8ee5-b5f415b6bc24",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4be58f16-e96a-4bd0-9f7c-0d2fe5f90743",
+      "comment": "",
+      "command": "type",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "banglore"
+    }, {
+      "id": "5ee8a6fa-83ab-4f44-97bd-8a77dda7465a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c4d55adb-9ef6-4d0e-87fd-fa60c25413c2",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please select Leaving From.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47e68a0f-722d-4455-be54-75ede5212e82",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.news-main > marquee",
+      "targets": [
+        ["css=.news-main > marquee", "css:finder"],
+        ["xpath=//div[2]/div/marquee", "xpath:position"]
+      ],
+      "value": "Beware of fake appointment order for jobs at KSRTC\\nKSRTC wins global recognition again by entering 2 million club in Inter -State and Intra- State Volvo Bus Operation.\\nKnow more..\\nFor Passengers convenience and comfortable journey, Karnataka State Road Transport Corporation has decided to change the present Call Centre Number (9449596666) to New Contact Number 080-26252625 w.e.f. 01.01.2021.\\nKnow more..\\nGuest User Booking.\\nThe KSRTC has introduced online booking by guest users (unregistered users) to increase the reach of advance...\\nKnow more..\\nTicket Printout Not Mandatory\\nKarnataka State Road Transport Corporation (KSRTC) has set an example for other transport entities in the coun ..."
+    }, {
+      "id": "e674922f-0fe8-4c6c-a372-bdb615e204a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "921e1435-0497-461a-a63a-77912b48d2fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-35",
+      "targets": [
+        ["id=ui-id-35", "id"],
+        ["linkText=BANGALORE", "linkText"],
+        ["css=#ui-id-35", "css:finder"],
+        ["xpath=//a[contains(text(),'BANGALORE')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-35']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-1']/li/a", "xpath:idRelative"],
+        ["xpath=//body/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BANGALORE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db46dd4b-bfe1-44f2-878d-5436c21875dd",
+      "comment": "",
+      "command": "type",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "BANGALORE"
+    }, {
+      "id": "96c22647-b54b-419a-b0a1-444fb20bcd76",
+      "comment": "",
+      "command": "click",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d2f987e-6b52-4a01-a2a1-58003b58da7d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-42",
+      "targets": [
+        ["id=ui-id-42", "id"],
+        ["linkText=ADONI", "linkText"],
+        ["css=#ui-id-42", "css:finder"],
+        ["xpath=//a[contains(text(),'ADONI')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-42']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-2']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//body/ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ADONI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60588e81-1272-409e-8efe-35db496d1bca",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtJourneyDate",
+      "targets": [
+        ["id=txtJourneyDate", "id"],
+        ["name=txtJourneyDate", "name"],
+        ["css=#txtJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c876548-1c58-41e1-b58d-a89981f078cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=30",
+      "targets": [
+        ["linkText=30", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'30')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//td[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'30')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9273dbe1-1e14-42f0-b2cf-b5a07b6427e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0523c2e-9476-4b57-ab74-2fb76e79efd3",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64cfe7a6-6307-4408-89ff-a5cd02a854d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64e8902e-ac5e-4bf5-b19e-f05aac9c5481",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-39",
+      "targets": [
+        ["id=ui-id-39", "id"],
+        ["linkText=ADICHUNCHANAGIRI", "linkText"],
+        ["css=#ui-id-39", "css:finder"],
+        ["xpath=//a[contains(text(),'ADICHUNCHANAGIRI')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-39']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-1']/li/a", "xpath:idRelative"],
+        ["xpath=//body/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ADICHUNCHANAGIRI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfed67ec-1786-4a8c-b54e-bb1abd4c50fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ADICHUNCHANAGIRI"
+    }, {
+      "id": "e8bc6aa8-335c-4b87-9c71-eacef675212d",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtJourneyDate",
+      "targets": [
+        ["id=txtJourneyDate", "id"],
+        ["name=txtJourneyDate", "name"],
+        ["css=#txtJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f61c36ac-d35b-4adf-8747-79e2aa3c6984",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=29",
+      "targets": [
+        ["linkText=29", "linkText"],
+        ["css=.ui-state-highlight", "css:finder"],
+        ["xpath=//a[contains(text(),'29')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[30]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'29')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66bf8456-e8ca-4a35-94a3-d3edb0e2a1eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtJourneyDate",
+      "targets": [
+        ["id=txtJourneyDate", "id"],
+        ["name=txtJourneyDate", "name"],
+        ["css=#txtJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e5bf28c-fa1a-44a1-95da-0e9e17c944c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=30",
+      "targets": [
+        ["linkText=30", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'30')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//td[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'30')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e54a8614-b1b1-4ee1-91cd-ad874feb1418",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtReturnJourneyDate",
+      "targets": [
+        ["id=txtReturnJourneyDate", "id"],
+        ["name=txtReturnJourneyDate", "name"],
+        ["css=#txtReturnJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtReturnJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bc05490-df63-44c8-b116-ead309a7f86b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-datepicker-today > .ui-state-default",
+      "targets": [
+        ["css=.ui-datepicker-today > .ui-state-default", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[6]/span", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'29')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f44118e-0b66-4d56-8757-4acd2d6e92a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-datepicker-today > .ui-state-default",
+      "targets": [
+        ["css=.ui-datepicker-today > .ui-state-default", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[6]/span", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'29')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a6ba6a1-68b2-49a9-b3a8-cef5388330e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-icon-circle-triangle-e",
+      "targets": [
+        ["css=.ui-icon-circle-triangle-e", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//body/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48d18849-6be0-4080-8c3d-b687cff7f100",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=(//a[contains(text(),'1')])[3]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[30]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2509e3ce-317d-4f7e-9b62-f66db8cf7d04",
+      "comment": "",
+      "command": "click",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30773103-65bd-4dda-a5f4-7f2d10b47fcd",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "There are no Services with the selected Going To Place. Please select the Place from the list.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b7495d1-aaf5-4759-b8b5-21334174c494",
+      "comment": "",
+      "command": "click",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2090a5b6-0b47-4b68-b4a2-b55a55fa576c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-111",
+      "targets": [
+        ["id=ui-id-111", "id"],
+        ["linkText=CBT", "linkText"],
+        ["css=#ui-id-111", "css:finder"],
+        ["xpath=//a[contains(text(),'CBT')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-111']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-2']/li/a", "xpath:idRelative"],
+        ["xpath=//body/ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CBT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc3edde6-e474-4f18-be44-8f01b558888e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control-label",
+      "targets": [
+        ["css=.custom-control-label", "css:finder"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Single Lady')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b48dbb7-ec7b-4c7e-b471-a7521b758c5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "16167434-cc54-424e-93f8-484680a5a81f",
+    "name": "my_testcase3",
+    "commands": [{
+      "id": "4303d281-d3f1-4da2-ade1-99d8171eb669",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2f4e47a-d36d-4a65-8f81-2ca28add9f2a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1052x668",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b5e3187-9d38-4d89-91ec-c81c221417ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b680b86-6139-4b69-a19e-797c90dc5300",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffc41f97-72f2-4118-8ad6-7f388cd7e935",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chikkamagaluru - Bengaluru",
+      "targets": [
+        ["linkText=Chikkamagaluru - Bengaluru", "linkText"],
+        ["css=.active li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[@onclick=\"populateSearch('1467469338690', 'Chikkamagaluru', '1467467616730', 'Bengaluru');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='routeSlider']/div/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[20]", "xpath:href"],
+        ["xpath=//div/div/div/div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chikkamagaluru - Bengaluru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca5b4990-36e4-4444-bb71-c787fb4e1102",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "linkText=Chikkamagaluru - Bengaluru",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2641fc60-f46c-4c22-83f4-2445df4f22f9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Chikkamagaluru - Bengaluru",
+      "targets": [
+        ["linkText=Chikkamagaluru - Bengaluru", "linkText"],
+        ["css=.active li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[@onclick=\"populateSearch('1467469338690', 'Chikkamagaluru', '1467467616730', 'Bengaluru');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='routeSlider']/div/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[20]", "xpath:href"],
+        ["xpath=//div/div/div/div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chikkamagaluru - Bengaluru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48508a08-088d-454c-9866-ddeef5553203",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=29",
+      "targets": [
+        ["linkText=29", "linkText"],
+        ["css=.ui-state-highlight", "css:finder"],
+        ["xpath=//a[contains(text(),'29')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[30]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'29')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87fa0222-7692-48f5-af16-fa1b130fb442",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ddce3f7-e329-4327-a1e4-477974e51e95",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b7abd10b-beeb-414e-88e1-184060c772c4",
+    "name": "my_testcase4",
+    "commands": [{
+      "id": "5ef1a755-75c7-42a3-859c-0d95813c2401",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79abcd75-51f2-4608-8337-fdabb8648cdb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1052x668",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e70a09a7-37f0-4dbb-9250-a067e293a280",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3.3333332538604736)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ddaa2b3-227b-4e64-8a77-2d90decc2ebb",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e1fbc53-4de3-4867-9d9b-5ff709b99e2c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-17",
+      "targets": [
+        ["id=ui-id-17", "id"],
+        ["linkText=BANGALORE DARSHINI", "linkText"],
+        ["css=#ui-id-17", "css:finder"],
+        ["xpath=//a[contains(text(),'BANGALORE DARSHINI')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-17']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-1']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//body/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BANGALORE DARSHINI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfba77f8-069a-4986-abc4-c5a487ca37cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "BANGALORE DARSHINI"
+    }, {
+      "id": "7eddcde9-d79e-48ff-a977-cef16e064964",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "There are no Services with the selected Leaving From Place. Please select any other Place.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5658b43-addb-44b2-8266-a0bdbd5b5c1d",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a67f5fe6-4e3b-4e35-a18b-565536927d02",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "845a56ad-2512-48fd-9722-9cb662f39950",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6732d235-86d2-4614-92e8-2df8cd6ccbaf",
+    "name": "my_testcase5",
+    "commands": [{
+      "id": "8099a944-5e85-486f-82c2-3b3dc87a8872",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14ba3d59-a45d-4596-ac19-3908146e84a4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1052x668",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6f523e3-610b-41c0-b170-55be5b13b936",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b61f70c-8f1d-435c-9b4d-947cc9477928",
+      "comment": "",
+      "command": "//click",
+      "target": "id=ui-id-3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38c020f4-d234-4fc7-afca-1306102dd601",
+      "comment": "",
+      "command": "type",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "BANGALORE"
+    }, {
+      "id": "8fd17f09-d6a1-4ba6-9e02-26d161208c3a",
+      "comment": "",
+      "command": "click",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ea35db4-6068-4ba7-89d0-64bc939b780c",
+      "comment": "",
+      "command": "//click",
+      "target": "id=ui-id-13",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7076931d-a0f3-43c0-8f58-675200cb367a",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtJourneyDate",
+      "targets": [
+        ["id=txtJourneyDate", "id"],
+        ["name=txtJourneyDate", "name"],
+        ["css=#txtJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af511ea9-ea81-41a8-9995-d4afbedb0d54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=30",
+      "targets": [
+        ["linkText=30", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'30')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//td[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'30')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73af62f2-9670-460c-9ffb-22e52c9505c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(10)",
+      "targets": [
+        ["css=p:nth-child(10)", "css:finder"],
+        ["xpath=//marquee/p", "xpath:position"],
+        ["xpath=//p[contains(.,'The KSRTC has introduced online booking by guest users (unregistered users) to increase the reach of advance...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2ad2f14-ce6a-4b21-8900-b4f830b43938",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pr-2",
+      "targets": [
+        ["css=.pr-2", "css:finder"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cb2a7c3-1af4-47d1-86ab-6ad6019f9803",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtReturnJourneyDate",
+      "targets": [
+        ["id=txtReturnJourneyDate", "id"],
+        ["name=txtReturnJourneyDate", "name"],
+        ["css=#txtReturnJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtReturnJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18dafc5e-0d06-429b-9181-9d8658a1ccfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-icon-circle-triangle-e",
+      "targets": [
+        ["css=.ui-icon-circle-triangle-e", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//body/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "737b684b-7fbb-48da-a58a-e7a462294555",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=(//a[contains(text(),'1')])[3]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[30]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b5ccbc4-dc32-4565-bfac-ec22b2a2e6f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control-label",
+      "targets": [
+        ["css=.custom-control-label", "css:finder"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Single Lady')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a123e81-06b4-4203-b33c-c675cf8e2882",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5df9d20d-098e-415b-8790-f41937a02dd0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(5) p",
+      "targets": [
+        ["css=li:nth-child(5) p", "css:finder"],
+        ["xpath=//li[5]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Track Your Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afb24d7a-508a-4132-88d1-94c283052446",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(5) p",
+      "targets": [
+        ["css=li:nth-child(5) p", "css:finder"],
+        ["xpath=//li[5]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Track Your Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec4b5d7f-a4ba-48e8-8a75-9ae66b02adde",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=.two-way-search > h2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e104611b-eafe-440d-b3b5-967cad95d23f",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "css=.two-way-search > h2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6efc76cb-d835-46a8-8fe5-fcc577c976a3",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.select-service > #SrvcSelectBtnForward0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82e1d726-c98a-4195-a6df-423e83692282",
+      "comment": "",
+      "command": "//click",
+      "target": "id=Forward2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b6ca36d-4514-4692-8620-a3ce9c5c040c",
+      "comment": "",
+      "command": "//click",
+      "target": "id=Forward52",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3da82d44-0acc-4c79-bac6-a0af4de28d48",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d5ac3202-26a8-423f-8c2a-eb3ae4153ba9"]
+  }],
+  "urls": ["https://ksrtc.in/"],
+  "plugins": []
+}

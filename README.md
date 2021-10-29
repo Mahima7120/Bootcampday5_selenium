@@ -1,2 +1,1 @@
-# Bootcampday5_selenium
-Selenium bootcamp assignment
+# BootcampDay5 Selenium Demo Assignment
